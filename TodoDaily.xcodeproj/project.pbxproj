@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		30F50ED92DE37227006CFD3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30F50ED82DE37221006CFD3E /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		30F50EBB2DE36CA8006CFD3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		30F50EA92DE36CA7006CFD3E /* TodoDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F50EBA2DE36CA8006CFD3E /* TodoDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F50EC42DE36CA8006CFD3E /* TodoDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F50ED82DE37221006CFD3E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		30F50EA02DE36CA7006CFD3E = {
 			isa = PBXGroup;
 			children = (
+				30F50ED82DE37221006CFD3E /* .gitignore */,
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
 				30F50EBD2DE36CA8006CFD3E /* TodoDailyTests */,
 				30F50EC72DE36CA8006CFD3E /* TodoDailyUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F50ED92DE37227006CFD3E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

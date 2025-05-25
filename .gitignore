@@ -1,0 +1,84 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+*.moved-aside
+*.xcuserstate
+*.xcuserdatad
+*.orig
+
+# SwiftPM
+#
+.build/
+Package.resolved
+
+# Carthage
+#
+Carthage/Build/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode Server & CI
+#
+integration_logs/
+resultBundle.xcresult
+
+# Playgrounds
+#
+timeline.xctimeline
+playground.xcworkspace
+
+# App data
+#
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+
+# SwiftUI previews
+#
+*.icloud
+*.xcappdata
+
+# User-specific files
+#
+*.swp
+*.swo
+
+# OS generated files
+#
+.DS_Store
+*.swp
+*.swo
+.idea/
+
+# Archives
+#
+*.xcarchive
+
+# SwiftLint
+#
+.swiftlint.yml
+
+# SPM checkouts (if needed)
+#
+.checkouts/
