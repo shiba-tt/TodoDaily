@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3062F9BE2DE4C0DA0072A028 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3062F9BD2DE4C0D70072A028 /* README.md */; };
 		30F50ED92DE37227006CFD3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30F50ED82DE37221006CFD3E /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3062F9BD2DE4C0D70072A028 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		30F50EA92DE36CA7006CFD3E /* TodoDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F50EBA2DE36CA8006CFD3E /* TodoDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F50EC42DE36CA8006CFD3E /* TodoDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,21 +47,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3062F99E2DE4BA800072A028 /* App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = App;
-			sourceTree = "<group>";
-		};
-		3062F99F2DE4BAAA0072A028 /* Models */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3062F9A02DE4BB230072A028 /* Views */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Views;
-			sourceTree = "<group>";
-		};
 		30F50EAB2DE36CA7006CFD3E /* TodoDaily */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -108,14 +95,12 @@
 		30F50EA02DE36CA7006CFD3E = {
 			isa = PBXGroup;
 			children = (
+				3062F9BD2DE4C0D70072A028 /* README.md */,
 				30F50ED82DE37221006CFD3E /* .gitignore */,
-				3062F99E2DE4BA800072A028 /* App */,
-				3062F99F2DE4BAAA0072A028 /* Models */,
 				30F50EAA2DE36CA7006CFD3E /* Products */,
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
 				30F50EBD2DE36CA8006CFD3E /* TodoDailyTests */,
 				30F50EC72DE36CA8006CFD3E /* TodoDailyUITests */,
-				3062F9A02DE4BB230072A028 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,9 +130,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3062F99E2DE4BA800072A028 /* App */,
-				3062F99F2DE4BAAA0072A028 /* Models */,
-				3062F9A02DE4BB230072A028 /* Views */,
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
 			);
 			name = TodoDaily;
@@ -252,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3062F9BE2DE4C0DA0072A028 /* README.md in Resources */,
 				30F50ED92DE37227006CFD3E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
