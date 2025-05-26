@@ -45,6 +45,21 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		3062F99E2DE4BA800072A028 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		3062F99F2DE4BAAA0072A028 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3062F9A02DE4BB230072A028 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 		30F50EAB2DE36CA7006CFD3E /* TodoDaily */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -94,10 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				30F50ED82DE37221006CFD3E /* .gitignore */,
+				3062F99E2DE4BA800072A028 /* App */,
+				3062F99F2DE4BAAA0072A028 /* Models */,
+				30F50EAA2DE36CA7006CFD3E /* Products */,
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
 				30F50EBD2DE36CA8006CFD3E /* TodoDailyTests */,
 				30F50EC72DE36CA8006CFD3E /* TodoDailyUITests */,
-				30F50EAA2DE36CA7006CFD3E /* Products */,
+				3062F9A02DE4BB230072A028 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +145,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				3062F99E2DE4BA800072A028 /* App */,
+				3062F99F2DE4BAAA0072A028 /* Models */,
+				3062F9A02DE4BB230072A028 /* Views */,
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
 			);
 			name = TodoDaily;
