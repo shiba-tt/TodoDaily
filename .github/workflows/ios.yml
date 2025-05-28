@@ -1,0 +1,26 @@
+name: iOS Build & Test
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # 必要な場合、Xcodeバージョン指定（省略可）
+      - name: Select Xcode Version
+        run: sudo xcode-select -s /Applications/Xcode_16.3.app
+
+      # fastlaneインストール
+      - name: Install fastlane
+        run: sudo gem install fastlane
+
+      # ビルド＆テスト（Fastfileの:test laneを実行）
+      - name: Build and Test
+        run: fastlane test
