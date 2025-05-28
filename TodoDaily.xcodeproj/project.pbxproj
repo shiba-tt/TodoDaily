@@ -55,16 +55,6 @@
 			path = TodoDaily;
 			sourceTree = "<group>";
 		};
-		30F50EBD2DE36CA8006CFD3E /* TodoDailyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoDailyTests;
-			sourceTree = "<group>";
-		};
-		30F50EC72DE36CA8006CFD3E /* TodoDailyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoDailyUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +89,6 @@
 				30F50ED82DE37221006CFD3E /* .gitignore */,
 				30F50EAA2DE36CA7006CFD3E /* Products */,
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
-				30F50EBD2DE36CA8006CFD3E /* TodoDailyTests */,
-				30F50EC72DE36CA8006CFD3E /* TodoDailyUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,9 +140,6 @@
 			dependencies = (
 				30F50EBC2DE36CA8006CFD3E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				30F50EBD2DE36CA8006CFD3E /* TodoDailyTests */,
-			);
 			name = TodoDailyTests;
 			packageProductDependencies = (
 			);
@@ -174,9 +159,6 @@
 			);
 			dependencies = (
 				30F50EC62DE36CA8006CFD3E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				30F50EC72DE36CA8006CFD3E /* TodoDailyUITests */,
 			);
 			name = TodoDailyUITests;
 			packageProductDependencies = (
