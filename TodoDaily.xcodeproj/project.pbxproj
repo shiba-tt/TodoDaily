@@ -11,28 +11,9 @@
 		30F50ED92DE37227006CFD3E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 30F50ED82DE37221006CFD3E /* .gitignore */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		30F50EBB2DE36CA8006CFD3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30F50EA12DE36CA7006CFD3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30F50EA82DE36CA7006CFD3E;
-			remoteInfo = TodoDaily;
-		};
-		30F50EC52DE36CA8006CFD3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30F50EA12DE36CA7006CFD3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30F50EA82DE36CA7006CFD3E;
-			remoteInfo = TodoDaily;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3062F9BD2DE4C0D70072A028 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		30F50EA92DE36CA7006CFD3E /* TodoDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F50EBA2DE36CA8006CFD3E /* TodoDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F50EC42DE36CA8006CFD3E /* TodoDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F50ED82DE37221006CFD3E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,20 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30F50EB72DE36CA8006CFD3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30F50EC12DE36CA8006CFD3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				30F50EA92DE36CA7006CFD3E /* TodoDaily.app */,
-				30F50EBA2DE36CA8006CFD3E /* TodoDailyTests.xctest */,
-				30F50EC42DE36CA8006CFD3E /* TodoDailyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,46 +92,6 @@
 			productReference = 30F50EA92DE36CA7006CFD3E /* TodoDaily.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30F50EB92DE36CA8006CFD3E /* TodoDailyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30F50ED22DE36CA8006CFD3E /* Build configuration list for PBXNativeTarget "TodoDailyTests" */;
-			buildPhases = (
-				30F50EB62DE36CA8006CFD3E /* Sources */,
-				30F50EB72DE36CA8006CFD3E /* Frameworks */,
-				30F50EB82DE36CA8006CFD3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30F50EBC2DE36CA8006CFD3E /* PBXTargetDependency */,
-			);
-			name = TodoDailyTests;
-			packageProductDependencies = (
-			);
-			productName = TodoDailyTests;
-			productReference = 30F50EBA2DE36CA8006CFD3E /* TodoDailyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		30F50EC32DE36CA8006CFD3E /* TodoDailyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30F50ED52DE36CA8006CFD3E /* Build configuration list for PBXNativeTarget "TodoDailyUITests" */;
-			buildPhases = (
-				30F50EC02DE36CA8006CFD3E /* Sources */,
-				30F50EC12DE36CA8006CFD3E /* Frameworks */,
-				30F50EC22DE36CA8006CFD3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30F50EC62DE36CA8006CFD3E /* PBXTargetDependency */,
-			);
-			name = TodoDailyUITests;
-			packageProductDependencies = (
-			);
-			productName = TodoDailyUITests;
-			productReference = 30F50EC42DE36CA8006CFD3E /* TodoDailyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -179,14 +104,6 @@
 				TargetAttributes = {
 					30F50EA82DE36CA7006CFD3E = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					30F50EB92DE36CA8006CFD3E = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 30F50EA82DE36CA7006CFD3E;
-					};
-					30F50EC32DE36CA8006CFD3E = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 30F50EA82DE36CA7006CFD3E;
 					};
 				};
 			};
@@ -205,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				30F50EA82DE36CA7006CFD3E /* TodoDaily */,
-				30F50EB92DE36CA8006CFD3E /* TodoDailyTests */,
-				30F50EC32DE36CA8006CFD3E /* TodoDailyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,20 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30F50EB82DE36CA8006CFD3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30F50EC22DE36CA8006CFD3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -245,34 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30F50EB62DE36CA8006CFD3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30F50EC02DE36CA8006CFD3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		30F50EBC2DE36CA8006CFD3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30F50EA82DE36CA7006CFD3E /* TodoDaily */;
-			targetProxy = 30F50EBB2DE36CA8006CFD3E /* PBXContainerItemProxy */;
-		};
-		30F50EC62DE36CA8006CFD3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30F50EA82DE36CA7006CFD3E /* TodoDaily */;
-			targetProxy = 30F50EC52DE36CA8006CFD3E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		30F50ECE2DE36CA8006CFD3E /* Debug */ = {
@@ -458,86 +332,6 @@
 			};
 			name = Release;
 		};
-		30F50ED32DE36CA8006CFD3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64YFF99V22;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shiba.dev.TodoDailyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoDaily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoDaily";
-			};
-			name = Debug;
-		};
-		30F50ED42DE36CA8006CFD3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64YFF99V22;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shiba.dev.TodoDailyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoDaily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoDaily";
-			};
-			name = Release;
-		};
-		30F50ED62DE36CA8006CFD3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64YFF99V22;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shiba.dev.TodoDailyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TodoDaily;
-			};
-			name = Debug;
-		};
-		30F50ED72DE36CA8006CFD3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64YFF99V22;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shiba.dev.TodoDailyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TodoDaily;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -555,24 +349,6 @@
 			buildConfigurations = (
 				30F50ECE2DE36CA8006CFD3E /* Debug */,
 				30F50ECF2DE36CA8006CFD3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30F50ED22DE36CA8006CFD3E /* Build configuration list for PBXNativeTarget "TodoDailyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30F50ED32DE36CA8006CFD3E /* Debug */,
-				30F50ED42DE36CA8006CFD3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30F50ED52DE36CA8006CFD3E /* Build configuration list for PBXNativeTarget "TodoDailyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30F50ED62DE36CA8006CFD3E /* Debug */,
-				30F50ED72DE36CA8006CFD3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
