@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,10 +41,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		30F50EA62DE36CA7006CFD3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -80,14 +78,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				30F50EAB2DE36CA7006CFD3E /* TodoDaily */,
 			);
 			name = TodoDaily;
-			packageProductDependencies = (
-			);
 			productName = TodoDaily;
 			productReference = 30F50EA92DE36CA7006CFD3E /* TodoDaily.app */;
 			productType = "com.apple.product-type.application";
@@ -116,7 +110,7 @@
 			);
 			mainGroup = 30F50EA02DE36CA7006CFD3E;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 30F50EAA2DE36CA7006CFD3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,27 +123,23 @@
 /* Begin PBXResourcesBuildPhase section */
 		30F50EA72DE36CA7006CFD3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				3062F9BE2DE4C0DA0072A028 /* README.md in Resources */,
 				30F50ED92DE37227006CFD3E /* .gitignore in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30F50EA52DE36CA7006CFD3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		30F50ECE2DE36CA8006CFD3E /* Debug */ = {
+		30F50ECE2DE36CA8006CFD3E /* Debug configuration for PBXNativeTarget "TodoDaily" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -180,7 +170,7 @@
 			};
 			name = Debug;
 		};
-		30F50ECF2DE36CA8006CFD3E /* Release */ = {
+		30F50ECF2DE36CA8006CFD3E /* Release configuration for PBXNativeTarget "TodoDaily" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -211,7 +201,7 @@
 			};
 			name = Release;
 		};
-		30F50ED02DE36CA8006CFD3E /* Debug */ = {
+		30F50ED02DE36CA8006CFD3E /* Debug configuration for PBXProject "TodoDaily" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		30F50ED12DE36CA8006CFD3E /* Release */ = {
+		30F50ED12DE36CA8006CFD3E /* Release configuration for PBXProject "TodoDaily" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,19 +328,17 @@
 		30F50EA42DE36CA7006CFD3E /* Build configuration list for PBXProject "TodoDaily" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30F50ED02DE36CA8006CFD3E /* Debug */,
-				30F50ED12DE36CA8006CFD3E /* Release */,
+				30F50ED02DE36CA8006CFD3E /* Debug configuration for PBXProject "TodoDaily" */,
+				30F50ED12DE36CA8006CFD3E /* Release configuration for PBXProject "TodoDaily" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		30F50ECD2DE36CA8006CFD3E /* Build configuration list for PBXNativeTarget "TodoDaily" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30F50ECE2DE36CA8006CFD3E /* Debug */,
-				30F50ECF2DE36CA8006CFD3E /* Release */,
+				30F50ECE2DE36CA8006CFD3E /* Debug configuration for PBXNativeTarget "TodoDaily" */,
+				30F50ECF2DE36CA8006CFD3E /* Release configuration for PBXNativeTarget "TodoDaily" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
