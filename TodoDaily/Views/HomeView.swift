@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  TodoDaily
-//
-//  Created by Tatsuya Shiba on 2025/05/26.
-//
-
 import SwiftUI
 import SwiftData
 
