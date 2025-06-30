@@ -11,18 +11,18 @@ enum TabType: Int, CaseIterable {
         }
     }
     
+    var iconName: String {
+        switch self {
+        case .home: return "house.fill"
+        case .habitAnalytics: return "chart.bar"
+        }
+    }
+    
     @ViewBuilder
     var contentView: some View {
         switch self {
         case .home: HomeView()
         case .habitAnalytics: HabitAnalyticsView()
-        }
-    }
-    
-    var iconName: String {
-        switch self {
-        case .home: return "house"
-        case .habitAnalytics: return "chart.bar"
         }
     }
 }

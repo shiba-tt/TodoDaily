@@ -11,7 +11,7 @@ struct BaseScreenContainer: View {
             ZStack {
                 selectedTab.contentView
             }
-            AppFooterView()
+            AppFooterView(selectedTab: $selectedTab)
         }
     }
 }
