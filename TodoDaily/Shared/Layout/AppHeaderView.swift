@@ -3,7 +3,7 @@ import SwiftUI
 // ヘッダー
 struct AppHeaderView: View {
     // 設定ボタン押下時のアクションを受け取れるようにする
-    var onSettingsTapped: (() -> Void)?
+    var onSettingsTapped: (() -> Void)? = nil
     
     var body: some View {
         VStack(spacing: 0) {

@@ -49,16 +49,6 @@ struct HomeView: View {
                     }
                 }
                 .listStyle(.insetGrouped)
-                .navigationTitle("TodoDaily")
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button {
-                            // 設定画面遷移処理（仮）
-                        } label: {
-                            Image(systemName: "gear")
-                        }
-                    }
-                }
 
                 Button(action: {
                     // タスク追加画面表示処理（仮）
