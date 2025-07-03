@@ -2,8 +2,7 @@ import SwiftUI
 
 struct AppFooterView: View {
     // 選択中のタブを保持します。
-    @Binding
-    var selectedTab: TabType
+    @Binding var selectedTab: TabType
     
     var body: some View {
         HStack {

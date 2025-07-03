@@ -3,8 +3,7 @@ import SwiftData
 
 struct SettingsView: View {
     // 表示/非表示を保持します。
-    @Binding
-    var isOpen: Bool
+    @Binding var isOpen: Bool
     
     // iPhoneの幅を保持します。
     private let maxWidth: CGFloat = UIScreen.main.bounds.width

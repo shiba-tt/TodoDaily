@@ -1,14 +1,12 @@
 import SwiftUI
 
-// ヘッダー、フッターを含む共通レイアウトです。
+// 共通レイアウトです。
 struct BaseScreenContainer: View {
     // 選択タブを保持します。
-    @State
-    private var selectedTab: TabType = .home
+    @State private var selectedTab: TabType = .home
     
     // 設定表示/非表示を保持します。
-    @State
-    private var isSettingsOpen: Bool = false
+    @State private var isSettingsOpen: Bool = false
     
     var body: some View {
         ZStack {
