@@ -2,9 +2,12 @@ import SwiftUI
 import SwiftData
 
 struct SettingsView: View {
+    // 色のテーマを保持します。
+    @AppStorage("theme") var theme: String = "system"
+    
     // 表示/非表示を保持します。
     @Binding var isOpen: Bool
-    
+
     // iPhoneの幅を保持します。
     private let maxWidth: CGFloat = UIScreen.main.bounds.width
     
@@ -21,19 +24,18 @@ struct SettingsView: View {
                     }
                 }
             ZStack {
-                // ここに設定を追加する。
                 SwiftUI.List {
-                    Text("Settings")
-                    Text("Settings")
-                    Text("Settings")
+                    // ここに設定を追加する。
+                    Section(header: Text("表示モード")) {
+                        Picker("モード", selection: $theme) {
+                            Text("システム").tag("system")
+                            Text("ライト").tag("light")
+                            Text("ダーク").tag("dark")
+                        }
+                        .pickerStyle(.segmented)
+                    }
                 }
-                // 設定のフッター
-                VStack {
-                    Spacer()
-                    Text("Hello, World!")
-                }
-                .foregroundStyle(.secondary)
-                .padding()
+                Spacer()
             }
             .padding(.leading, maxWidth / 4)
             .offset(x: isOpen ? 0 : maxWidth)

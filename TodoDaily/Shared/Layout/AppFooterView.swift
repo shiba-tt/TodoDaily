@@ -5,6 +5,7 @@ struct AppFooterView: View {
     @Binding var selectedTab: TabType
     
     var body: some View {
+        // 水平方向にアイコンを並べる
         HStack {
             ForEach(TabType.allCases, id: \.self) {
                 tab in Button(action: { selectedTab = tab }) {

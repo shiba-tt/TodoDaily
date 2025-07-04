@@ -3,32 +3,35 @@ import SwiftUI
 // ヘッダー
 struct AppHeaderView: View {
     // 設定ボタン押下時のアクションを受け取れるようにする
-    var onSettingsTapped: (() -> Void)? = nil
+    var onSettingsTapped: (() -> Void)
     
     var body: some View {
-        VStack(spacing: 0) {
-            HStack {
-                Text("TodoDaily")
-                    .font(.headline)
-                    .fontWeight(.bold)
+        // 水平に配置
+        HStack(spacing: 0) {
+            // アプリ名を表示
+            Text("TodoDaily")
+                .font(.headline)
+                .fontWeight(.bold)
+                .foregroundColor(.primary)
+            // 左右に寄せる
+            Spacer()
+            // 設定ボタン
+            Button(action: {
+                onSettingsTapped()
+            }) {
+                Image(systemName: "gearshape.fill")
+                    .resizable()
+                    .frame(width: 24, height: 24)
                     .foregroundColor(.primary)
-                Spacer()
-                Button(action: {
-                    onSettingsTapped?()
-                }) {
-                    Image(systemName: "gearshape.fill")
-                        .resizable()
-                        .frame(width: 24, height: 24)
-                        .foregroundColor(.primary)
-                }
-                .accessibilityLabel("設定")
             }
-            .padding(.horizontal)
-            .frame(height: 56)
-            .background(Color(.systemBackground))
-            .overlay(
-                Divider(), alignment: .bottom
-            )
+            .accessibilityLabel("設定")
         }
+        .padding(.horizontal)
+        .frame(height: 56)
+        .background(Color(.systemBackground))
+        .overlay(
+            Divider(),
+            alignment: .bottom
+        )
     }
 }
